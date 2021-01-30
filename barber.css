@@ -1,103 +1,133 @@
-*,
-html,
-body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    overflow: hidden;
-    height: 100%;
-}
-
-body,
-.pa-body {
-    display: flex;
-    flex-direction: column;
-    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(0, 0, 0, 1) 100%), url("barbershopbg.png");
-    background-size: cover;
-    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Nandaka Western';
-}
-
-.pa-header {
-    display: flex;
-    justify-content: flex-end;
-    background-image: url("barbershop.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: left;
-    height: 15%;
-}
-
-.pa-list {
-    margin: 0;
-    display: flex;
-    width: 40%;
-    justify-content: center;
-}
-
-.ch-list-item {
-    font-family: 'Montserrat', sans-serif;
-    list-style-type: none;
-    font-size: 1.5vw;
-    margin: 0;
-    color: white;
-    margin-top: 50px;
-    padding: 0 20px;
-    text-shadow: 2px 2px 2px red, -2px -2px 2px red, 2px -2px 2px red, -2px 2px 2px red, 0px 2px 2px red, 2px 0px 2px red, 0px -2px 2px red, -2px 0px 2px red, 5px 5px 5px black;
-}
-
-.pa-main {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-.ch-main-h1 {
-    font-size: 5vw;
-    text-align: center;
-    padding-bottom: 100px;
-    text-shadow: 2px 2px 2px red, -2px -2px 2px red, 2px -2px 2px red, -2px 2px 2px red, 0px 2px 2px red, 2px 0px 2px red, 0px -2px 2px red, -2px 0px 2px red, 5px 5px 5px black;
-    margin-top: 3vw;
-}
-
-.ch-main-p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2vw;
-    text-shadow: 2px 2px 2px red, -2px -2px 2px red, 2px -2px 2px red, -2px 2px 2px red, 0px 2px 2px red, 2px 0px 2px red, 0px -2px 2px red, -2px 0px 2px red, 5px 5px 5px black;
-    margin-top: 3vw;
-    font-style: italic;
-    font-weight: lighter;
-}
-
-.pa-footer {
-    display: flex;
-    border: 5px solid black;
-    height: 15%;
-}
-
-
-/** BUTTON **/
-
-.enter {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #383838;
-    padding: 0 3vw;
-    max-height: 10%;
-    margin-bottom: 10%;
-    border-radius: 8px;
-    border: 5px inset black;
-}
-
-.enter a {
-    text-decoration: none;
-    height: 100%;
-    width: 100%;
-    font-size: 2vw;
-    color: red;
-}
+        /*  #f2f2f2
+    #c7c7c7
+    #777777
+    #383838
+    #dc2829
+    #000040 */
+        
+        *,
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            overflow: hidden;
+            height: 100%;
+        }
+        
+        body,
+        .pa-body {
+            display: flex;
+            flex-direction: column;
+            background-image: radial-gradient(circle, rgba(92, 91, 91, 0.4) 0%, rgba(53, 53, 53, 0.3) 50%, rgba(0, 0, 0, 1) 100%), url("barbershopbg.png");
+            background-size: cover;
+            box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Nandaka Western';
+        }
+        
+        .pa-header {
+            display: flex;
+            justify-content: flex-end;
+            background-image: url("barbershop.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: left;
+            height: 15%;
+        }
+        
+        .pa-list {
+            margin: 0;
+            display: flex;
+            width: 40%;
+            justify-content: center;
+        }
+        
+        .ch-list-item {
+            font-family: 'Montserrat', sans-serif;
+            list-style-type: none;
+            font-size: 1.5vw;
+            margin: 0;
+            color: white;
+            margin-top: 50px;
+            padding: 0 20px;
+            text-shadow: 2px 2px 2px #383838, -2px -2px 2px #383838, 2px -2px 2px #383838, -2px 2px 2px #383838, 0px 2px 2px #383838, 2px 0px 2px #383838, 0px -2px 2px #383838, -2px 0px 2px #383838, 5px 5px 5px black;
+        }
+        
+        .pa-main {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        
+        .ch-main-h1 {
+            font-size: 5vw;
+            text-align: center;
+            padding-bottom: 200px;
+            text-shadow: 2px 2px 2px #383838, -2px -2px 2px #383838, 2px -2px 2px #383838, -2px 2px 2px #383838, 0px 2px 2px #383838, 2px 0px 2px #383838, 0px -2px 2px #383838, -2px 0px 2px #383838, 5px 5px 5px black;
+            position: absolute;
+            height: 50%;
+            width: 100%;
+            top: 25%;
+        }
+        
+        .ch-main-p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2vw;
+            text-shadow: 2px 2px 2px #383838, -2px -2px 2px #383838, 2px -2px 2px #383838, -2px 2px 2px #383838, 0px 2px 2px #383838, 2px 0px 2px #383838, 0px -2px 2px #383838, -2px 0px 2px #383838, 5px 5px 5px black;
+            margin-top: 3vw;
+            font-style: italic;
+            font-weight: lighter;
+            position: relative;
+            top: 30%;
+            height: 25%;
+        }
+        
+        .pa-footer {
+            display: flex;
+            border: 5px solid black;
+            height: 15%;
+        }
+        /** BUTTON **/
+        
+        .enter {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #cc0000;
+            padding: 0 60px;
+            max-height: 10%;
+            margin-bottom: 10%;
+            border-radius: 8px;
+            border: 5px inset black;
+            position: relative;
+            top: 20%;
+            text-decoration: none;
+            font-size: 28px;
+            color: black;
+        }
+        
+        .enter:hover {
+            background-color: #dc2829;
+        }
+        
+        @media screen and (max-width: 600px) {
+            body,
+            .pa-body {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+            }
+            .pa-header {
+                flex: 0 0 100px;
+            }
+            .pa-main {
+                flex: 1 0 auto;
+            }
+            .ch-main-h1 {
+                font-size: 9vw;
+            }
+        }
