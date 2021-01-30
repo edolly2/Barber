@@ -68,7 +68,7 @@ body,
 }
 
 .ch-main-p {
-    font-family: monospace;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2vw;
     text-shadow: 2px 2px 2px red, -2px -2px 2px red, 2px -2px 2px red, -2px 2px 2px red, 0px 2px 2px red, 2px 0px 2px red, 0px -2px 2px red, -2px 0px 2px red, 5px 5px 5px black;
 }
